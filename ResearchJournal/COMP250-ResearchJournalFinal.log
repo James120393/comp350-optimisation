@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.10)  18 MAR 2018 04:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.10)  19 MAR 2018 17:48
 entering extended mode
 **./COMP250-ResearchJournalFinal.tex
 (COMP250-ResearchJournalFinal.tex
@@ -627,7 +627,11 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
-(COMP250-ResearchJournalFinal.aux)
+(COMP250-ResearchJournalFinal.aux
+
+LaTeX Warning: Label `Image2' multiply defined.
+
+)
 \openout1 = `COMP250-ResearchJournalFinal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -646,8 +650,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 \AtBeginShipoutBox=\box29
 Package hyperref Info: Link coloring OFF on input line 18.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
@@ -694,76 +697,82 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 22.
+
+Overfull \hbox (2.1212pt too wide) in paragraph at lines 28--29
+\OT1/cmr/m/n/10.95 Unit (CPU) or GPU or in the Game (Your Code). Un-real pro-vi
+des a com-mand \  stat.unit"
+ []
+
 <images/Image1.png, id=33, 191.9672pt x 91.09032pt>
 File: images/Image1.png Graphic file (type png)
 <use images/Image1.png>
-Package pdftex.def Info: images/Image1.png  used on input line 30. on input lin
-e 30.
+Package pdftex.def Info: images/Image1.png  used on input line 32. on input lin
+e 32.
 Package pdftex.def Info: Requested size: 191.96672pt x 91.09007pt on input line
- 30.
- [1
+ 32.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1
 
 
 {C:/Users/james/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 43.
+(Font)              <10.95> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 43.
+(Font)              <8> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 43.
+(Font)              <6> on input line 48.
  [2 <./images/Image1.png>]
-<images/Image2.png, id=56, 1247.41031pt x 223.58531pt>
+<images/Image2.png, id=57, 1247.41031pt x 223.58531pt>
 File: images/Image2.png Graphic file (type png)
 <use images/Image2.png>
-Package pdftex.def Info: images/Image2.png  used on input line 58. on input lin
-e 58.
+Package pdftex.def Info: images/Image2.png  used on input line 64. on input lin
+e 64.
 Package pdftex.def Info: Requested size: 418.25555pt x 74.96721pt on input line
- 58.
-
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 58--59
-[][] 
- []
-
-<images/Image3.png, id=58, 1092.33093pt x 462.97969pt>
+ 64.
+<images/Image3.png, id=59, 1092.33093pt x 462.97969pt>
 File: images/Image3.png Graphic file (type png)
 <use images/Image3.png>
-Package pdftex.def Info: images/Image3.png  used on input line 63. on input lin
-e 63.
+Package pdftex.def Info: images/Image3.png  used on input line 74. on input lin
+e 74.
 Package pdftex.def Info: Requested size: 418.25555pt x 177.27635pt on input lin
-e 63.
+e 74.
 
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 63--64
-[][] 
- []
 
-[3 <./images/Image2.png> <./images/Image3.png>]
-(COMP250-ResearchJournalFinal.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(COMP250-ResearchJournalFinal.bbl [3 <./images/Image2.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
+ [4 <./images/Image3.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
  (COMP250-ResearchJournalFinal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `COMP250-ResearchJournalFinal.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 4DEA7469B28E9CB80DBFB8C26672CB11;376.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  ) 
 Here is how much of TeX's memory you used:
- 9122 strings out of 493312
- 144473 string characters out of 3138898
- 333951 words of memory out of 3000000
- 12570 multiletter control sequences out of 15000+200000
+ 9130 strings out of 493312
+ 144538 string characters out of 3138898
+ 334157 words of memory out of 3000000
+ 12575 multiletter control sequences out of 15000+200000
  9074 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,51p,8841b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,7n,51p,8841b,491s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on COMP250-ResearchJournalFinal.pdf (4 pages, 806798 bytes).
+Output written on COMP250-ResearchJournalFinal.pdf (4 pages, 807599 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
+ 110 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
  72 words of extra memory for PDF output out of 10000 (max. 10000000)
 

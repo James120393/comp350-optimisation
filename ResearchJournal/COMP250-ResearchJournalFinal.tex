@@ -20,14 +20,19 @@
 	
 	\maketitle
 \section{Introduction}
-	In the games industry there are many types of optimisation methods and tools, one such tool is the unreal profiling tool \cite{UEPer}, which includes a detailed breakdown of everything that runs in the game loop. Amongst the unreal tools are also a Graphics Processing Unit (GPU) profiler, and a asset statistics sheet, there are more ways to get an overview of what is happening in the engine which shall be covered in this journal. The main point of this journal is to provide a foundation for optimizing a game within the unreal engine providing both about the tool and how to use it.
+Optimisation is making the most out of the available resources and is essential to creating a smooth experience for the user. In the games industry there are many types of optimisation methods and tools, one such tool is the unreal profiling tool \cite{UEPer}, which includes a detailed breakdown of everything that runs in the game loop. Amongst the unreal tools are also a Graphics Processing Unit (GPU) profiler, and a asset statistics sheet, there are more ways to get an overview of what is happening in the engine which shall be covered in this journal. The main point of this journal is to provide a foundation for optimising a game within the unreal engine providing both about the tool and how to use it.
 	
 \section{Optimisation in Unreal}
-Optimisation making the most out of the available resources. In games this is usually attributed to gaining the most Frames per Second (FPS) out of your system \cite{UEYouTube}, and in Unreal this can be done in several ways, a list of which can be found at the Unreal Documentation. In this journal an overview of some of the tool will be presented with examples on how to use them.
+Getting the most Frames per Second (FPS) out of your system is the most important thing to achieve when optimising a game \cite{UEYouTube}, and in Unreal this can be done in several ways, a list of which can be found at the Unreal Documentation. In this journal an overview of some of the tool will be presented with examples on how to use them.
 
-The first step is to find the bottleneck and see whether its in the CPU or GPU or in the Game (Your Code). Unreal provides a command \textquote{stat.unit} which displays statistics similar to image 1. In this example the Frame and GPU are very close in value, this means that the bottleneck is the GPU. If it were the CPU then the Draw would be close, and if its your code then the Game will be. The best way to discover which this is is by launching a release build of the game and typing the command, then noting the values. Once you have discovered the bottleneck then the next move is to use the appropriate profiler to fix the issue.
+The first step is to find the bottleneck and see whether its in the Central Processing Unit (CPU) or GPU or in the Game (Your Code). Unreal provides a command \textquote{stat.unit} which displays statistics similar to image 1. In this example the Frame and GPU are very close in value, this means that the bottleneck is the GPU. If it were the CPU then the Draw would be close, and if its your code then the Game will be. The best way to discover which this is is by launching a release build of the game and typing the command, then noting the values. Once you have discovered the bottleneck then the next move is to use the appropriate profiler to fix the issue.
 
-\includegraphics{Image1}
+\begin{figure}[h]
+	\centering
+	\includegraphics{Image1}
+	\caption{A before and after picture showing the stat.unit command in Unreal}
+	\label{Image1}
+\end{figure}
 
 \section{CPU Profiling}
 Being CPU bound means that there are too many draw calls, this is an issue that artists can help overcome by combining multiple assets into one larger asset. Having multiple instances of the same material can increase the draw time and can be resolved by using a material instance. The CPU render thread also handles processing objects, GPU commands and graphics drivers \cite{UECPU}.
@@ -42,7 +47,6 @@ Mouse Based UI:
 \begin{description}[font=$\bullet$~\normalfont\scshape\color{red!50!black}]
 \item You can see greater level of information for the high level costs, for example you can see exactly what is causing the PrePass to be of a high cost by clikcing on it.
 \item Unfortunately this does not give a real time running cost view of the game, the information is given from data taken from the frame it is called on.
-\item It can not be used during the release version of the game.
 \item Some drivers can optimise shaders before the GPU profiler uses the data so it can produce false numbers.
 \end{description}
 
@@ -55,15 +59,25 @@ Text:
 
 To access the GPU text profiler just type the command \textquote{stat.gpu} and a wall of text will appear ingame as seen in image 2. Using the same \textquote{stat start/stopfile} command you can load the ingame GPU information into the frontend tool for reviewing \cite{UEGPU}.
 
-\includegraphics[width=\textwidth]{Image2}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{Image2}
+	\caption{A before and after picture showing the stat.gpu command in Unreal}
+	\label{Image2}
+\end{figure}
 
 \section{Content Optimisation}
-Simply put content optimisation is the process of optimising the objects that are rendered ingame, including the meshes, animations and lighting. Though lighting can be dealt with using the GPU profiler there are other ways to identify the issue,	 though in this instance the meshes are the focus. Unreal provides a Mesh statistics profiler that is a spreadsheet of data that contains various pieces of information that can help to identify any suspect meshes \cite{Content}. As can be seen in image 4, there are several meshes referencing a 4K texture files when they do not need to, this can be easily rectified by selecting the asset and editing the max resolution.
+Simply put content optimisation is the process of optimising the objects that are rendered ingame, including the meshes, animations and lighting. Though lighting can be dealt with using the GPU profiler there are other ways to identify the issue,	 though in this instance the meshes are the focus. Unreal provides a Mesh statistics profiler that is a spreadsheet of data that contains various pieces of information that can help to identify any suspect meshes \cite{Content}. As can be seen in image 4, there are several meshes referencing 4K texture files when they do not need to, this can be easily rectified by selecting the asset and editing the max resolution.
 
-\includegraphics[width=\textwidth]{Image3}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{Image3}
+	\caption{An Image showing the statistics page for assets in Unreal}
+	\label{Image3}
+\end{figure}
 
 \section{Final Remarks}
-There are many tools in Unreal that can help developers identify and rectify issues within their game to ensure it runs at maximum efficiency. Though there are many more than those described in this journal, the ones mentioned here cover the basics. When planning on optimizing work it is always best to plan ahead and try to optimise during development and not to optimise at the end, as this can reveal larger issues within your program that may require a larger amount of time and effort to fix than is available \cite{UEPerformance}.
+There are many tools in Unreal that can help developers identify and rectify issues within their game to ensure it runs at maximum efficiency. Though there are many more than those described in this journal, the ones mentioned here cover the basics. When planning on optimising work it is always best to plan ahead and try to optimise during development and not to optimise at the end, as this can reveal larger issues within your program that may require a larger amount of time and effort to fix than is available \cite{UEPerformance}.
 	
 	
 	
