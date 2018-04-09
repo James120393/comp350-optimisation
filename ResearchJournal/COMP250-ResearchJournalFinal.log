@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.10)  19 MAR 2018 17:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.3)  21 MAR 2018 12:41
 entering extended mode
 **./COMP250-ResearchJournalFinal.tex
 (COMP250-ResearchJournalFinal.tex
 LaTeX2e <2017-04-15>
-Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 (C:\Users\james\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
 (C:\Users\james\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrkbase.sty
@@ -595,7 +595,8 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+\Gread@gobject=\count124
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -608,10 +609,10 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -627,11 +628,7 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
-(COMP250-ResearchJournalFinal.aux
-
-LaTeX Warning: Label `Image2' multiply defined.
-
-)
+(COMP250-ResearchJournalFinal.aux)
 \openout1 = `COMP250-ResearchJournalFinal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -650,13 +647,14 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 \AtBeginShipoutBox=\box29
 Package hyperref Info: Link coloring OFF on input line 18.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count124
+\c@section@level=\count125
 )
 LaTeX Info: Redefining \ref on input line 18.
 LaTeX Info: Redefining \pageref on input line 18.
@@ -669,16 +667,16 @@ LaTeX Info: Redefining \nameref on input line 18.
 
 (C:\Users\james\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
+\scratchcounter=\count126
 \scratchdimen=\dimen110
 \scratchbox=\box30
-\nofMPsegments=\count126
-\nofMParguments=\count127
+\nofMPsegments=\count127
+\nofMParguments=\count128
 \everyMPshowfont=\toks19
-\MPscratchCnt=\count128
+\MPscratchCnt=\count129
 \MPscratchDim=\dimen111
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
+\MPnumerator=\count130
+\makeMPintoPDFobject=\count131
 \everyMPtoPDFconversion=\toks20
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -689,7 +687,7 @@ Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
@@ -698,18 +696,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 22.
 
-Overfull \hbox (2.1212pt too wide) in paragraph at lines 28--29
-\OT1/cmr/m/n/10.95 Unit (CPU) or GPU or in the Game (Your Code). Un-real pro-vi
-des a com-mand \  stat.unit"
- []
-
 <images/Image1.png, id=33, 191.9672pt x 91.09032pt>
 File: images/Image1.png Graphic file (type png)
-<use images/Image1.png>
-Package pdftex.def Info: images/Image1.png  used on input line 32. on input lin
-e 32.
-Package pdftex.def Info: Requested size: 191.96672pt x 91.09007pt on input line
- 32.
+ <use images/Image1.png>
+Package pdftex.def Info: images/Image1.png used on input line 32.
+(pdftex.def)             Requested size: 191.96672pt x 91.09007pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -723,21 +715,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 48.
- [2 <./images/Image1.png>]
-<images/Image2.png, id=57, 1247.41031pt x 223.58531pt>
+ [2 <./images/Image1.png>] <images/Image2.png, id=57, 1247.41031pt x 223.58531p
+t>
 File: images/Image2.png Graphic file (type png)
+
 <use images/Image2.png>
-Package pdftex.def Info: images/Image2.png  used on input line 64. on input lin
-e 64.
-Package pdftex.def Info: Requested size: 418.25555pt x 74.96721pt on input line
- 64.
-<images/Image3.png, id=59, 1092.33093pt x 462.97969pt>
+Package pdftex.def Info: images/Image2.png used on input line 64.
+(pdftex.def)             Requested size: 418.25555pt x 74.96721pt.
+ <images/Image3.png, id=59, 1092.33093pt x 462.97969pt>
 File: images/Image3.png Graphic file (type png)
+
 <use images/Image3.png>
-Package pdftex.def Info: images/Image3.png  used on input line 74. on input lin
-e 74.
-Package pdftex.def Info: Requested size: 418.25555pt x 177.27635pt on input lin
-e 74.
+Package pdftex.def Info: images/Image3.png used on input line 74.
+(pdftex.def)             Requested size: 418.25555pt x 177.27635pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -752,17 +742,13 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `COMP250-ResearchJournalFinal.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 4DEA7469B28E9CB80DBFB8C26672CB11;376.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  ) 
 Here is how much of TeX's memory you used:
- 9130 strings out of 493312
- 144538 string characters out of 3138898
- 334157 words of memory out of 3000000
- 12575 multiletter control sequences out of 15000+200000
+ 9181 strings out of 493323
+ 144784 string characters out of 3139066
+ 338478 words of memory out of 3000000
+ 12617 multiletter control sequences out of 15000+200000
  9074 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,51p,8841b,491s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -770,7 +756,7 @@ Here is how much of TeX's memory you used:
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on COMP250-ResearchJournalFinal.pdf (4 pages, 807599 bytes).
+Output written on COMP250-ResearchJournalFinal.pdf (4 pages, 807615 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)
